@@ -1,0 +1,10 @@
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Base64.exe.config
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Base64.exe
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Base64.pdb
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Lab1ResearchInfoByDifferCoding.exe
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Lab1ResearchInfoByDifferCoding.pdb
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\bin\Debug\Lab1ResearchInfoByDifferCoding.exe.config
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\obj\Debug\Base64.csprojResolveAssemblyReference.cache
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\obj\Debug\Base64.csproj.CoreCompileInputs.cache
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\obj\Debug\Base64.exe
+E:\c3_2\ComputerSystem\Lab1ResearchInfoByDifferCoding\Base64\obj\Debug\Base64.pdb
