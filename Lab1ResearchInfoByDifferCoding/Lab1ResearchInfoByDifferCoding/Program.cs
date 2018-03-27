@@ -11,7 +11,7 @@ namespace Lab1ResearchInfoByDifferCoding
 {
     public class Program
     {
-        public static Tuple<SortedDictionary<char, int>, SortedDictionary<char, double>, double, double> FindAmountLetters(string text)
+        public static Tuple<SortedDictionary<char, int>, SortedDictionary<char, double>, double, double,int> FindAmountLetters(string text)
         {
             //Regex escapeMark = new Regex(@"\s");
             //text = escapeMark.Replace(text.ToString(), "");
@@ -20,10 +20,10 @@ namespace Lab1ResearchInfoByDifferCoding
             SortedDictionary<char, double> frequency = new SortedDictionary<char, double>();
 
             foreach (char c in text)
-                if (alphabet.ContainsKey(Char.ToLower(c)))
-                    alphabet[Char.ToLower(c)]++;
+                if (alphabet.ContainsKey(c/*Char.ToLower(c)*/))
+                    alphabet[c/*Char.ToLower(c)*/]++;
                 else
-                    alphabet.Add(Char.ToLower(c), 1);
+                    alphabet.Add(c/*Char.ToLower(c)*/, 1);
 
             int howManyLetters = alphabet.Values.Sum();
 
@@ -40,13 +40,14 @@ namespace Lab1ResearchInfoByDifferCoding
             }
 
             double amountInfoInText = middleEntropy * howManyLetters;
-            return Tuple.Create(alphabet, frequency, middleEntropy, amountInfoInText);
+            return Tuple.Create(alphabet, frequency, middleEntropy, amountInfoInText, howManyLetters);
         }
         public static void Output(string path, bool printFrequency = true)
         {
             var i = FindAmountLetters(File.ReadAllText(path));
-            Console.WriteLine("Середня ентропія алфавіту для цього тексту = {0} bits", (int)i.Item3);
-            Console.WriteLine("Кількість інформації в тексті {0} bytes", (int)i.Item4 / 8);
+            Console.WriteLine("Середня ентропія алфавіту для цього тексту = {0} bits", i.Item3);
+            Console.WriteLine("Кількість символів: {0}", i.Item5);
+            Console.WriteLine("Кількість інформації в тексті {0} bytes", i.Item4 / 8);
             Console.WriteLine("Частоту кожного символу: ");
             if (printFrequency)
                 foreach (char c in i.Item2.Keys)
