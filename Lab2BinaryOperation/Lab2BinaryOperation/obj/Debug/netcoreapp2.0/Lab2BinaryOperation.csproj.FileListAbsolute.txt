@@ -1,0 +1,11 @@
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\bin\Debug\netcoreapp2.0\Lab2BinaryOperation.deps.json
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\bin\Debug\netcoreapp2.0\Lab2BinaryOperation.runtimeconfig.json
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\bin\Debug\netcoreapp2.0\Lab2BinaryOperation.runtimeconfig.dev.json
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\bin\Debug\netcoreapp2.0\Lab2BinaryOperation.dll
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\bin\Debug\netcoreapp2.0\Lab2BinaryOperation.pdb
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.csprojResolveAssemblyReference.cache
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.csproj.CoreCompileInputs.cache
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.AssemblyInfoInputs.cache
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.AssemblyInfo.cs
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.dll
+E:\c3_2\ComputerSystem\Lab2BinaryOperation\Lab2BinaryOperation\obj\Debug\netcoreapp2.0\Lab2BinaryOperation.pdb
